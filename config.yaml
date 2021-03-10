@@ -1,11 +1,13 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.*' OR 'cat:econ.*' OR 'cat:stat.*' OR 'cat:q-fin.*' 
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        kaggle: 1
+        causal inference: 3
+        interpretability: 1
+        uplift: 3
+        direct mail: 3 
 
 # 通知の閾値
 score_threshold: 0
